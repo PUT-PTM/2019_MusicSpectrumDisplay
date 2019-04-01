@@ -5,8 +5,6 @@ Tools - STM32F4xx
 How to run - wskazać swoją wersję release i co jest niezbędne aby ją uruchomić. Dodatkowo opisać jak używać programu.
 How to compile - czy niezbędne jest podjęcie jakiś specjalnych kroków, czy wystarczy skopiować?
 Future improvements - co w projekcie można poprawić, czy występują bugi?
-Attributions - jeśli wykorzystano jakieś fragmenty kodu - wskazać skąd, jeśli na czymś bazowano - wskazać, jeśli grafika nie jest autorska - wskazać kto jest autorem. W projektach wykorzystujących Virtual Port Com wskazać:
-https://github.com/xenovacivus/STM32DiscoveryVCP
 License - MIT
 Credits - Michał Popiel, Norbert Młynarski
 
