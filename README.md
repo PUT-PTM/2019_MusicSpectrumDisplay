@@ -14,8 +14,8 @@ TODO  co w projekcie można poprawić, czy występują bugi?
 ## Attributions 
 WS2812B HAL Lib:  https://github.com/lamik/WS2812B_STM32_HAL
 ## Credits
-Michał Popiel
-Norbert Młynarski
+* **Michał Popiel** - *LED* - [ReQezeR](https://github.com/ReQezeR)
+* **Norbert Młynarski** - *Microphone* 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
