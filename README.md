@@ -1,19 +1,19 @@
 # 2019_MusicSpectrumDisplay
-##Overview
+## Overview
 MusicSpectrumDisplay is a STM32F4 project written in C
-##Description
+## Description
 TODO  bardziej rozbudowany opis projektu - z czego się składa (np. aplikacji na PC i STM32), główne moduły, metodologia wykorzystana do tworzenia.
-##Tools
+## Tools
 TODO  jakie narzędzie zostały użyte - wersje itp. Jeśli używany jest sterownik (VPC) to tutaj podać jaki, skąd pobrać. Jaki język.
-##How to run
+## How to run
 TODO  wskazać swoją wersję release i co jest niezbędne aby ją uruchomić. Dodatkowo opisać jak używać programu.
-##How to compile
+## How to compile
 TODO  czy niezbędne jest podjęcie jakiś specjalnych kroków, czy wystarczy skopiować?
-##Future improvements
+## Future improvements
 TODO  co w projekcie można poprawić, czy występują bugi?
-##Attributions 
+## Attributions 
 WS2812B HAL Lib:  https://github.com/lamik/WS2812B_STM32_HAL
-##Credits
+## Credits
 Michał Popiel
 Norbert Młynarski
 ## License
