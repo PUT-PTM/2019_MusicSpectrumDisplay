@@ -6,7 +6,6 @@
  */
 #include "stm32f4xx_hal.h"
 #include <stdlib.h>
-
 #include "ws2812b.h"
 #include "ws2812b_fx.h"
 #include "msd_effect.h"

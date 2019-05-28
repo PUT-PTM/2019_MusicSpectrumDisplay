@@ -40,9 +40,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "stm32f4xx_hal.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stm32f4xx_hal.h"
 #include <stdlib.h>
 #include "ws2812b.h"
 #include "ws2812b_fx.h"
@@ -67,11 +68,11 @@
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi1;
 DMA_HandleTypeDef hdma_spi1_tx;
-uint16_t speedALL = 5000;
+
+/* USER CODE BEGIN PV */
+uint16_t speedALL = 10000;
 volatile int tablica_max_mocy[5]={6,8,12,8,6};
 volatile int tablica_mocy[5]={1,1,1,1,1};
-/* USER CODE BEGIN PV */
-
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -148,9 +149,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
 	  WS2812BFX_Callback();	// FX effects calllback
 	  WS2812BFX_SysTickCallback();
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }

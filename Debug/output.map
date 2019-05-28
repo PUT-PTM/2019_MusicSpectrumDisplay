@@ -2311,7 +2311,6 @@ Discarded input sections
  .group         0x00000000        0xc Src/main.o
  .group         0x00000000        0xc Src/main.o
  .group         0x00000000        0xc Src/main.o
- .group         0x00000000        0xc Src/main.o
  .text          0x00000000        0x0 Src/main.o
  .bss           0x00000000        0x0 Src/main.o
  .text.HAL_SYSTICK_Callback
@@ -2563,7 +2562,6 @@ Discarded input sections
  .group         0x00000000        0xc Src/stm32f4xx_hal_msp.o
  .group         0x00000000        0xc Src/stm32f4xx_hal_msp.o
  .group         0x00000000        0xc Src/stm32f4xx_hal_msp.o
- .group         0x00000000        0xc Src/stm32f4xx_hal_msp.o
  .text          0x00000000        0x0 Src/stm32f4xx_hal_msp.o
  .data          0x00000000        0x0 Src/stm32f4xx_hal_msp.o
  .bss           0x00000000        0x0 Src/stm32f4xx_hal_msp.o
@@ -2627,8 +2625,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x89 Src/stm32f4xx_hal_msp.o
  .debug_macro   0x00000000      0x202 Src/stm32f4xx_hal_msp.o
  .debug_macro   0x00000000      0x134 Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00000000       0x1c Src/stm32f4xx_hal_msp.o
- .group         0x00000000        0xc Src/stm32f4xx_it.o
  .group         0x00000000        0xc Src/stm32f4xx_it.o
  .group         0x00000000        0xc Src/stm32f4xx_it.o
  .group         0x00000000        0xc Src/stm32f4xx_it.o
@@ -2748,7 +2744,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x89 Src/stm32f4xx_it.o
  .debug_macro   0x00000000      0x202 Src/stm32f4xx_it.o
  .debug_macro   0x00000000      0x134 Src/stm32f4xx_it.o
- .debug_macro   0x00000000       0x1c Src/stm32f4xx_it.o
  .group         0x00000000        0xc Src/system_stm32f4xx.o
  .group         0x00000000        0xc Src/system_stm32f4xx.o
  .group         0x00000000        0xc Src/system_stm32f4xx.o
@@ -2869,7 +2864,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x89 Src/system_stm32f4xx.o
  .debug_macro   0x00000000      0x202 Src/system_stm32f4xx.o
  .debug_macro   0x00000000      0x134 Src/system_stm32f4xx.o
- .group         0x00000000        0xc Src/ws2812b.o
  .group         0x00000000        0xc Src/ws2812b.o
  .group         0x00000000        0xc Src/ws2812b.o
  .group         0x00000000        0xc Src/ws2812b.o
@@ -4252,7 +4246,7 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
  .debug_ranges  0x00000690      0x4c0 Src/ws2812b_fx.o
  .debug_ranges  0x00000b50       0x20 startup/startup_stm32f407xx.o
 
-.debug_macro    0x00000000    0x20e70
+.debug_macro    0x00000000    0x20e24
  .debug_macro   0x00000000      0x35e Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x0000035e      0xa60 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000dbe      0x180 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -4317,40 +4311,38 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
  .debug_macro   0x0001eb75      0x336 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_macro   0x0001eeab      0x322 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x0001f1cd      0x306 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_macro   0x0001f4d3      0x35d Src/main.o
- .debug_macro   0x0001f830       0x1c Src/main.o
- .debug_macro   0x0001f84c       0x16 Src/main.o
- .debug_macro   0x0001f862       0x35 Src/main.o
- .debug_macro   0x0001f897       0x16 Src/main.o
- .debug_macro   0x0001f8ad       0x29 Src/main.o
- .debug_macro   0x0001f8d6       0x10 Src/main.o
- .debug_macro   0x0001f8e6       0x7c Src/main.o
- .debug_macro   0x0001f962      0x34e Src/msd_effect.o
- .debug_macro   0x0001fcb0      0x30d Src/stm32f4xx_hal_msp.o
- .debug_macro   0x0001ffbd      0x317 Src/stm32f4xx_it.o
- .debug_macro   0x000202d4      0x304 Src/system_stm32f4xx.o
- .debug_macro   0x000205d8      0x32f Src/ws2812b.o
- .debug_macro   0x00020907       0x22 Src/ws2812b.o
- .debug_macro   0x00020929      0x1e1 Src/ws2812b.o
- .debug_macro   0x00020b0a      0x366 Src/ws2812b_fx.o
+ .debug_macro   0x0001f4d3      0x358 Src/main.o
+ .debug_macro   0x0001f82b       0x16 Src/main.o
+ .debug_macro   0x0001f841       0x35 Src/main.o
+ .debug_macro   0x0001f876       0x16 Src/main.o
+ .debug_macro   0x0001f88c       0x29 Src/main.o
+ .debug_macro   0x0001f8b5       0x10 Src/main.o
+ .debug_macro   0x0001f8c5       0x7c Src/main.o
+ .debug_macro   0x0001f941      0x34e Src/msd_effect.o
+ .debug_macro   0x0001fc8f      0x308 Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0001ff97      0x312 Src/stm32f4xx_it.o
+ .debug_macro   0x000202a9      0x304 Src/system_stm32f4xx.o
+ .debug_macro   0x000205ad      0x330 Src/ws2812b.o
+ .debug_macro   0x000208dd      0x1e1 Src/ws2812b.o
+ .debug_macro   0x00020abe      0x366 Src/ws2812b_fx.o
 
-.debug_line     0x00000000     0x8a71
+.debug_line     0x00000000     0x8a73
  .debug_line    0x00000000      0x967 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_line    0x00000967      0x9c2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_line    0x00001329      0xaad Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_line    0x00001dd6      0x90a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_line    0x000026e0      0x9fe Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_line    0x000030de     0x117a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_line    0x00004258      0x884 Src/main.o
- .debug_line    0x00004adc      0x7ec Src/msd_effect.o
- .debug_line    0x000052c8      0x7cb Src/stm32f4xx_hal_msp.o
- .debug_line    0x00005a93      0x829 Src/stm32f4xx_it.o
- .debug_line    0x000062bc      0x7ae Src/system_stm32f4xx.o
- .debug_line    0x00006a6a      0x952 Src/ws2812b.o
- .debug_line    0x000073bc     0x1636 Src/ws2812b_fx.o
- .debug_line    0x000089f2       0x7f startup/startup_stm32f407xx.o
+ .debug_line    0x00004258      0x886 Src/main.o
+ .debug_line    0x00004ade      0x7ec Src/msd_effect.o
+ .debug_line    0x000052ca      0x7cb Src/stm32f4xx_hal_msp.o
+ .debug_line    0x00005a95      0x829 Src/stm32f4xx_it.o
+ .debug_line    0x000062be      0x7ae Src/system_stm32f4xx.o
+ .debug_line    0x00006a6c      0x952 Src/ws2812b.o
+ .debug_line    0x000073be     0x1636 Src/ws2812b_fx.o
+ .debug_line    0x000089f4       0x7f startup/startup_stm32f407xx.o
 
-.debug_str      0x00000000    0xbdd07
+.debug_str      0x00000000    0xbdcb6
  .debug_str     0x00000000    0xba80a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
                               0xbabe5 (size before relaxing)
  .debug_str     0x000ba80a      0x3a7 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
@@ -4363,21 +4355,21 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
                               0xba484 (size before relaxing)
  .debug_str     0x000bb6ff      0x6c8 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
                               0xba8a0 (size before relaxing)
- .debug_str     0x000bbdc7      0x937 Src/main.o
-                              0xbb3d5 (size before relaxing)
- .debug_str     0x000bc6fe       0x67 Src/msd_effect.o
+ .debug_str     0x000bbdc7      0x8e6 Src/main.o
+                              0xbb384 (size before relaxing)
+ .debug_str     0x000bc6ad       0x67 Src/msd_effect.o
                               0xba734 (size before relaxing)
- .debug_str     0x000bc765       0x1b Src/stm32f4xx_hal_msp.o
-                              0xba572 (size before relaxing)
- .debug_str     0x000bc780       0xd0 Src/stm32f4xx_it.o
-                              0xba25e (size before relaxing)
- .debug_str     0x000bc850       0x5a Src/system_stm32f4xx.o
+ .debug_str     0x000bc714       0x1b Src/stm32f4xx_hal_msp.o
+                              0xba521 (size before relaxing)
+ .debug_str     0x000bc72f       0xd0 Src/stm32f4xx_it.o
+                              0xba20d (size before relaxing)
+ .debug_str     0x000bc7ff       0x5a Src/system_stm32f4xx.o
                               0xba076 (size before relaxing)
- .debug_str     0x000bc8aa      0x9e7 Src/ws2812b.o
-                              0xbae37 (size before relaxing)
- .debug_str     0x000bd291      0xa47 Src/ws2812b_fx.o
+ .debug_str     0x000bc859      0x9e7 Src/ws2812b.o
+                              0xbade6 (size before relaxing)
+ .debug_str     0x000bd240      0xa47 Src/ws2812b_fx.o
                               0xbb31e (size before relaxing)
- .debug_str     0x000bdcd8       0x2f startup/startup_stm32f407xx.o
+ .debug_str     0x000bdc87       0x2f startup/startup_stm32f407xx.o
                                  0x5e (size before relaxing)
 
 .comment        0x00000000       0x7f

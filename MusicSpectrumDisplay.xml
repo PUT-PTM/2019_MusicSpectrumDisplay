@@ -10,8 +10,8 @@
 ]>
 
 <targetDefinitions>
-  <board id="testmajowy">
-    <name>testMajowy</name>
+  <board id="musicspectrumdisplay">
+    <name>MusicSpectrumDisplay</name>
     <dbgIF>SWD</dbgIF>
     <dbgDEV>ST-Link</dbgDEV>
     <mcuId>stm32f407vgtx</mcuId>

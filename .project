@@ -3,6 +3,7 @@
 	<name>MusicSpectrumDisplay</name>
 	<comment></comment>
 	<projects>
+		<project>MusicSpectrumDisplay</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
