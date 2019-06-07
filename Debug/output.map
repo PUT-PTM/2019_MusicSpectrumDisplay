@@ -2311,6 +2311,7 @@ Discarded input sections
  .group         0x00000000        0xc Src/main.o
  .group         0x00000000        0xc Src/main.o
  .group         0x00000000        0xc Src/main.o
+ .group         0x00000000        0xc Src/main.o
  .text          0x00000000        0x0 Src/main.o
  .bss           0x00000000        0x0 Src/main.o
  .text.HAL_SYSTICK_Callback
@@ -2987,6 +2988,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x89 Src/ws2812b.o
  .debug_macro   0x00000000      0x202 Src/ws2812b.o
  .debug_macro   0x00000000      0x134 Src/ws2812b.o
+ .debug_macro   0x00000000      0x1e1 Src/ws2812b.o
  .debug_macro   0x00000000       0x10 Src/ws2812b.o
  .group         0x00000000        0xc Src/ws2812b_fx.o
  .group         0x00000000        0xc Src/ws2812b_fx.o
@@ -4155,37 +4157,37 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17
                 0x000006bc       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x119ec
+.debug_info     0x00000000    0x11a31
  .debug_info    0x00000000     0x11d9 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_info    0x000011d9     0x1755 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_info    0x0000292e     0x127b Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_info    0x00003ba9      0xf93 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_info    0x00004b3c     0x125b Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_info    0x00005d97     0x2207 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_info    0x00007f9e     0x1990 Src/main.o
- .debug_info    0x0000992e      0xc79 Src/msd_effect.o
- .debug_info    0x0000a5a7     0x123f Src/stm32f4xx_hal_msp.o
- .debug_info    0x0000b7e6      0xc74 Src/stm32f4xx_it.o
- .debug_info    0x0000c45a      0xd29 Src/system_stm32f4xx.o
- .debug_info    0x0000d183     0x1319 Src/ws2812b.o
- .debug_info    0x0000e49c     0x352e Src/ws2812b_fx.o
- .debug_info    0x000119ca       0x22 startup/startup_stm32f407xx.o
+ .debug_info    0x00007f9e     0x19d5 Src/main.o
+ .debug_info    0x00009973      0xc79 Src/msd_effect.o
+ .debug_info    0x0000a5ec     0x123f Src/stm32f4xx_hal_msp.o
+ .debug_info    0x0000b82b      0xc74 Src/stm32f4xx_it.o
+ .debug_info    0x0000c49f      0xd29 Src/system_stm32f4xx.o
+ .debug_info    0x0000d1c8     0x1319 Src/ws2812b.o
+ .debug_info    0x0000e4e1     0x352e Src/ws2812b_fx.o
+ .debug_info    0x00011a0f       0x22 startup/startup_stm32f407xx.o
 
-.debug_abbrev   0x00000000     0x259d
+.debug_abbrev   0x00000000     0x25b0
  .debug_abbrev  0x00000000      0x2e5 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_abbrev  0x000002e5      0x3d6 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_abbrev  0x000006bb      0x32a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_abbrev  0x000009e5      0x2a7 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_abbrev  0x00000c8c      0x333 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_abbrev  0x00000fbf      0x2f2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_abbrev  0x000012b1      0x317 Src/main.o
- .debug_abbrev  0x000015c8      0x25f Src/msd_effect.o
- .debug_abbrev  0x00001827      0x254 Src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x00001a7b      0x221 Src/stm32f4xx_it.o
- .debug_abbrev  0x00001c9c      0x205 Src/system_stm32f4xx.o
- .debug_abbrev  0x00001ea1      0x34c Src/ws2812b.o
- .debug_abbrev  0x000021ed      0x39e Src/ws2812b_fx.o
- .debug_abbrev  0x0000258b       0x12 startup/startup_stm32f407xx.o
+ .debug_abbrev  0x000012b1      0x32a Src/main.o
+ .debug_abbrev  0x000015db      0x25f Src/msd_effect.o
+ .debug_abbrev  0x0000183a      0x254 Src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x00001a8e      0x221 Src/stm32f4xx_it.o
+ .debug_abbrev  0x00001caf      0x205 Src/system_stm32f4xx.o
+ .debug_abbrev  0x00001eb4      0x34c Src/ws2812b.o
+ .debug_abbrev  0x00002200      0x39e Src/ws2812b_fx.o
+ .debug_abbrev  0x0000259e       0x12 startup/startup_stm32f407xx.o
 
 .debug_loc      0x00000000     0x6193
  .debug_loc     0x00000000       0xfd Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -4246,7 +4248,7 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
  .debug_ranges  0x00000690      0x4c0 Src/ws2812b_fx.o
  .debug_ranges  0x00000b50       0x20 startup/startup_stm32f407xx.o
 
-.debug_macro    0x00000000    0x20e24
+.debug_macro    0x00000000    0x20e37
  .debug_macro   0x00000000      0x35e Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x0000035e      0xa60 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000dbe      0x180 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -4311,36 +4313,36 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
  .debug_macro   0x0001eb75      0x336 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_macro   0x0001eeab      0x322 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x0001f1cd      0x306 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_macro   0x0001f4d3      0x358 Src/main.o
- .debug_macro   0x0001f82b       0x16 Src/main.o
- .debug_macro   0x0001f841       0x35 Src/main.o
- .debug_macro   0x0001f876       0x16 Src/main.o
- .debug_macro   0x0001f88c       0x29 Src/main.o
- .debug_macro   0x0001f8b5       0x10 Src/main.o
- .debug_macro   0x0001f8c5       0x7c Src/main.o
- .debug_macro   0x0001f941      0x34e Src/msd_effect.o
- .debug_macro   0x0001fc8f      0x308 Src/stm32f4xx_hal_msp.o
- .debug_macro   0x0001ff97      0x312 Src/stm32f4xx_it.o
- .debug_macro   0x000202a9      0x304 Src/system_stm32f4xx.o
- .debug_macro   0x000205ad      0x330 Src/ws2812b.o
- .debug_macro   0x000208dd      0x1e1 Src/ws2812b.o
- .debug_macro   0x00020abe      0x366 Src/ws2812b_fx.o
+ .debug_macro   0x0001f4d3      0x36b Src/main.o
+ .debug_macro   0x0001f83e       0x16 Src/main.o
+ .debug_macro   0x0001f854       0x35 Src/main.o
+ .debug_macro   0x0001f889       0x16 Src/main.o
+ .debug_macro   0x0001f89f       0x29 Src/main.o
+ .debug_macro   0x0001f8c8      0x1e1 Src/main.o
+ .debug_macro   0x0001faa9       0x10 Src/main.o
+ .debug_macro   0x0001fab9       0x7c Src/main.o
+ .debug_macro   0x0001fb35      0x34e Src/msd_effect.o
+ .debug_macro   0x0001fe83      0x308 Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0002018b      0x312 Src/stm32f4xx_it.o
+ .debug_macro   0x0002049d      0x304 Src/system_stm32f4xx.o
+ .debug_macro   0x000207a1      0x330 Src/ws2812b.o
+ .debug_macro   0x00020ad1      0x366 Src/ws2812b_fx.o
 
-.debug_line     0x00000000     0x8a73
+.debug_line     0x00000000     0x8a7d
  .debug_line    0x00000000      0x967 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_line    0x00000967      0x9c2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_line    0x00001329      0xaad Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_line    0x00001dd6      0x90a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_line    0x000026e0      0x9fe Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_line    0x000030de     0x117a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_line    0x00004258      0x886 Src/main.o
- .debug_line    0x00004ade      0x7ec Src/msd_effect.o
- .debug_line    0x000052ca      0x7cb Src/stm32f4xx_hal_msp.o
- .debug_line    0x00005a95      0x829 Src/stm32f4xx_it.o
- .debug_line    0x000062be      0x7ae Src/system_stm32f4xx.o
- .debug_line    0x00006a6c      0x952 Src/ws2812b.o
- .debug_line    0x000073be     0x1636 Src/ws2812b_fx.o
- .debug_line    0x000089f4       0x7f startup/startup_stm32f407xx.o
+ .debug_line    0x00004258      0x890 Src/main.o
+ .debug_line    0x00004ae8      0x7ec Src/msd_effect.o
+ .debug_line    0x000052d4      0x7cb Src/stm32f4xx_hal_msp.o
+ .debug_line    0x00005a9f      0x829 Src/stm32f4xx_it.o
+ .debug_line    0x000062c8      0x7ae Src/system_stm32f4xx.o
+ .debug_line    0x00006a76      0x952 Src/ws2812b.o
+ .debug_line    0x000073c8     0x1636 Src/ws2812b_fx.o
+ .debug_line    0x000089fe       0x7f startup/startup_stm32f407xx.o
 
 .debug_str      0x00000000    0xbdcb6
  .debug_str     0x00000000    0xba80a Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -4355,17 +4357,17 @@ OUTPUT(MusicSpectrumDisplay.elf elf32-littlearm)
                               0xba484 (size before relaxing)
  .debug_str     0x000bb6ff      0x6c8 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
                               0xba8a0 (size before relaxing)
- .debug_str     0x000bbdc7      0x8e6 Src/main.o
-                              0xbb384 (size before relaxing)
- .debug_str     0x000bc6ad       0x67 Src/msd_effect.o
+ .debug_str     0x000bbdc7     0x1153 Src/main.o
+                              0xbbc53 (size before relaxing)
+ .debug_str     0x000bcf1a       0x67 Src/msd_effect.o
                               0xba734 (size before relaxing)
- .debug_str     0x000bc714       0x1b Src/stm32f4xx_hal_msp.o
+ .debug_str     0x000bcf81       0x1b Src/stm32f4xx_hal_msp.o
                               0xba521 (size before relaxing)
- .debug_str     0x000bc72f       0xd0 Src/stm32f4xx_it.o
+ .debug_str     0x000bcf9c       0xd0 Src/stm32f4xx_it.o
                               0xba20d (size before relaxing)
- .debug_str     0x000bc7ff       0x5a Src/system_stm32f4xx.o
+ .debug_str     0x000bd06c       0x5a Src/system_stm32f4xx.o
                               0xba076 (size before relaxing)
- .debug_str     0x000bc859      0x9e7 Src/ws2812b.o
+ .debug_str     0x000bd0c6      0x17a Src/ws2812b.o
                               0xbade6 (size before relaxing)
  .debug_str     0x000bd240      0xa47 Src/ws2812b_fx.o
                               0xbb31e (size before relaxing)
