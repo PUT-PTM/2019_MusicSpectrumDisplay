@@ -2,17 +2,24 @@
 ## Overview
 MusicSpectrumDisplay is a STM32F4 project written in C
 ## Description
-TODO  bardziej rozbudowany opis projektu - z czego się składa (np. aplikacji na PC i STM32), główne moduły, metodologia wykorzystana do tworzenia.
+We use SPI to communicate with WS2812B
+Microcontroller PINs:
+PA7 -> Data
+GND -> GND
 ## Tools
-TODO  jakie narzędzie zostały użyte - wersje itp. Jeśli używany jest sterownik (VPC) to tutaj podać jaki, skąd pobrać. Jaki język.
+* STM32F407vg - Microcontroller
+* WS2812B - Led Stripe
+* 5V/2A Power Supply (for Led)
+* MiniUSB Cable (for Microcontroller)
+* 100 Ohm Resistor
 ## How to run
-TODO  wskazać swoją wersję release i co jest niezbędne aby ją uruchomić. Dodatkowo opisać jak używać programu.
-## How to compile
-TODO  czy niezbędne jest podjęcie jakiś specjalnych kroków, czy wystarczy skopiować?
+* System Workbench for STM32
+* STM32CubeMX
 ## Future improvements
-TODO  co w projekcie można poprawić, czy występują bugi?
+* Add microphone support (in progress)
 ## Attributions 
 WS2812B HAL Lib:  https://github.com/lamik/WS2812B_STM32_HAL
+WS2812B_FX HAL Lib:  https://github.com/lamik/WS2812B_STM32_HAL
 ## Credits
 * **Michał Popiel** - *LED* - [ReQezeR](https://github.com/ReQezeR)
 * **Norbert Młynarski** - *Microphone* 
